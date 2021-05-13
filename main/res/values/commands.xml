@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="commands" id="commands">
+        <item name="cmd1">paul:kitchen lights:bulb:on:x</item>
+        <item name="cmd2">paul:alices nest:nest:off:x</item>
+        <item name="cmd3"> alice:main TV:tv:on:x</item>
+        <item name="cmd4">paul:alices nest:nest:off:x</item>
+        <item name="cmd5"> paul:home hub:hub:on:y</item>                    <!-- paul 1 -->
+        <item name="cmd6"> paul:pauls nest:nest:on:x</item>
+        <item name="cmd7"> alice:living room lights:bulb:on:x</item>
+        <item name="cmd8"> alice:tv room:tv:on:x</item>
+        <item name="cmd9"> paul:alices nest:nest:off:x</item>
+        <item name="cmd10"> paul:living room tv:tv:off:y</item>            <!-- paul 2 -->
+        <item name="cmd11"> alice:alices nest:nest:spotify:x</item>
+        <item name="cmd12"> alice:tv room:tv:on:x</item>
+        <item name="cmd13"> paul:alices nest:nest:radio:x</item>
+        <item name="cmd14"> paul:living room tv:tv:off:x</item>
+        <item name="cmd15"> paul:tv room:tv:on:x</item>
+        <item name="cmd16"> alice:kitchen lights:bulb:on:x</item>
+        <item name="cmd17"> alice:living room lights:bulb:off:x</item>
+        <item name="cmd18"> paul:main tv:tv:on:x</item>
+        <item name="cmd19"> paul:pauls nest:nest:spotify:x</item>
+        <item name="cmd120"> paul:main tv:tv:off:y</item>                  <!-- paul 3 -->
+        <item name="cmd21"> paul:home hub:hub:off:x</item>
+        <item name="cmd22"> alice:pauls nest:nest:off:x</item>
+        <item name="cmd23"> alice:pauls nest:nest:off:x</item>
+        <item name="cmd24"> alice:tv room:tv:on:x</item>
+        <item name="cmd25"> paul:main tv:tv:on:x</item>
+        <item name="cmd26"> alice:maint tv:tv:off:y</item>                <!-- alice 1 -->
+        <item name="cmd27"> paul:living room lights:bulb:off:x</item>
+        <item name="cmd28"> paul:tv room:tv:on:x</item>
+        <item name="cmd29"> paul:tv room:tv:off:x</item>
+        <item name="cmd30"> paul:kitchen lights:bulb:on:x</item>
+        <item name="cmd31"> paul:home hub:hub:on:x</item>
+        <item name="cmd32"> paul:main tv:tv:on:y</item>                    <!-- paul 4 -->
+        <item name="cmd33"> alice:main tv:tv:off:x</item>
+        <item name="cmd34"> alice:home hub:hub:off:x</item>
+        <item name="cmd35"> paul:main tv:tv:on:y</item>                    <!-- paul 5 -->
+        <item name="cmd36"> alice:pauls nest:nest:radio:x</item>
+        <item name="cmd37"> alice:tv room:tv:on:x</item>
+        <item name="cmd38"> paul:alices nest:nest:off:x</item>
+        <item name="cmd39"> alice:living room lights:bulb:off:x</item>
+        <item name="cmd40"> paul:main tv:tv:on:y</item>                    <!-- paul 6 -->
+        <item name="cmd41"> paul:main tv:tv:on:x</item>
+        <item name="cmd42"> alice:tv room:tv:on:x</item>
+        <item name="cmd43"> alice:tv room:tv:off:x</item>
+        <item name="cmd44"> alice:living room lights:bulb:off:y</item>      <!-- alice 2 -->
+        <item name="cmd45"> paul:kitchen lights:bulb:on:x</item>
+        <item name="cmd46"> alice:living room lights:bulb:on:x</item>
+        <item name="cmd47"> paul:main tv:tv:on:y</item>                    <!-- paul 7 -->
+        <item name="cmd48"> alice:home hub:hub:off:x</item>
+        <item name="cmd49"> paul:pauls nest:nest:spotify:x</item>
+        <item name="cmd50"> paul:kitchen lights:bulb:on:y</item>           <!-- paul 8 -->
+    </string-array>
+
+
+</resources>

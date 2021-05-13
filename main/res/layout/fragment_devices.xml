@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <TextView
+        android:id="@+id/devices_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/acc_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/alice_small"
+        android:textSize="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <LinearLayout
+        android:id="@+id/device_table_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/devices_title"
+        android:layout_margin="30dp"
+        android:background="?android:attr/windowBackground"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/table1" />
+
+        <TableLayout
+            android:id="@+id/yourdevices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="?android:attr/windowBackground" >
+
+            <TableRow
+                android:id="@+id/justyou_row_1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:padding="10dp"
+                    android:drawableTop="@drawable/nest_large"
+                    android:text="@string/alicesnest"
+                    android:gravity="center"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/table2"/>
+
+        <TableLayout
+            android:id="@+id/alldevices"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*"
+            android:background="?android:attr/windowBackground" >
+
+            <TableRow
+                android:id="@+id/communal_row_1"
+                android:layout_height="0dp"
+                android:paddingVertical="5dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/nest_large"
+                    android:text="@string/paulsnest"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:drawableTop="@drawable/tv_large"
+                    android:text="@string/maintv"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:drawableTop="@drawable/bulb_large"
+                    android:text="@string/lrooml"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/communal_row_2"
+                android:layout_height="0dp"
+                android:paddingVertical="5dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:drawableTop="@drawable/bulb_large"
+                    android:text="@string/kitchenl"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:drawableTop="@drawable/hub_large"
+                    android:text="@string/homehub"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:drawableTop="@drawable/tv_large"
+                    android:text="@string/lroomtv"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/communal_row_3"
+                android:layout_height="0dp"
+                android:paddingVertical="5dp"
+                android:weightSum="3" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:drawableTop="@drawable/tv_large"
+                    android:text="@string/tvtv"
+                    android:gravity="center"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

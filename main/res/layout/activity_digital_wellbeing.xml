@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DigitalWellbeing">
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/digwellbeingtitle"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/digwellbeingtext" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:text="@string/digwellbeingbtn" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/techabuse"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/abusepoptext2" />
+
+        <TextView
+            android:id="@+id/poptxt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="@string/abusepoptext3"  />
+
+        <TextView
+            android:id="@+id/poptxt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/abusepoptext4" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:id="@+id/resource1">
+
+                <TextView
+                    android:id="@+id/resource1name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15dp"
+                    android:textSize="17.5dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/resource1"  />
+
+                <Button
+                    android:id="@+id/resource1btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="15dp"
+                    android:text="@string/open">
+                </Button>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/resource2">
+
+                <TextView
+                    android:id="@+id/resource2name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15dp"
+                    android:textSize="17.5dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/resource2"  />
+
+                <Button
+                    android:id="@+id/resource2btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="15dp"
+                    android:text="@string/open">
+                </Button>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/resource3">
+
+                <TextView
+                    android:id="@+id/resource3name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15dp"
+                    android:textSize="17.5dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/resource3"  />
+
+                <Button
+                    android:id="@+id/resource3btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="15dp"
+                    android:text="@string/open">
+                </Button>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

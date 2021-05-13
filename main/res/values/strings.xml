@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">hosprojV1</string>
+
+    <!-- bottom nav bar strings -->
+    <string name="navbar_home">Home</string>
+    <string name="navbar_devices">Devices</string>
+    <string name="navbar_log">Log</string>
+    <string name="USER"/>
+
+    <!-- user account strings -->
+    <string name="paul">paul</string>
+    <string name="alice">alice</string>
+
+    <!-- device page strings -->
+    <string name="title">DEVICES</string>
+    <string name="table1">Your Devices</string>
+    <string name="table2">Other Devices</string>
+
+    <!-- device strings -->
+    <string name="nest">Nest</string>
+    <string name="bulb" id="nest">Bulb</string>
+
+    <!-- devices -->
+    <string name="paulsnest">pauls nest</string>
+    <string name="alicesnest">alices nest</string>
+    <string name="kitchenl">kitchen lights</string>
+    <string name="lrooml">Living room lights</string>
+    <string name="homehub">home hub</string>
+    <string name="maintv">Main TV</string>
+    <string name="lroomtv">Living room tv</string>
+    <string name="tvtv">tv room</string>
+
+    <!-- device array in place of live connected devices -->
+    <string-array name="device_list">
+        <item>nest:pauls nest:paul</item>
+        <item>nest:alices nest:alice</item>
+        <item>bulb:kitchen lights:paul</item>
+        <item>bulb:living room lights:paul</item>
+        <item>hub:home hub:paul</item>
+        <item>tv:main TV:paul</item>
+        <item>tv:living room tv:paul</item>
+        <item>tv:TV room:alice</item>
+    </string-array>
+
+    <!-- abuse pop up -->
+    <string name="abusepoptitle">Are you experiencing abuse?</string>
+    <string name="abusepoptext1">We have detected behaviour on your smart home system indicative of "tech abuse".</string>
+
+    <string name="abusepoptext2">Some perpetrators of domestic abuse use technology to control, monitor, abuse, and gaslight their partners. Patterns indicative of this behaviour in your smart home system have been identified.\nIf you are experiencing abuse, provided below are links to materials and organisations which can provide support. These resources are always available in the "Digital Wellbeing" section of account settings. </string>
+
+    <string name="abusepoptext3">Find out more about tech abuse, or contact support services in a private browser.</string>
+    <string name="abusepoptext4">Private browsing means that Chrome won\'t save your browsing history, cookies and site data, or information entered in forms.\nHowever, bookmarks and downloaded files will be saved, so avoid this if it\'s not save to do so. </string>
+    <string name="resource1">Refuge</string>
+    <string name="resource2">Women\'s Aid</string>
+    <string name="resource3">SafeLives</string>
+
+    <string name="resource1URL">https://www.refuge.org.uk/our-work/forms-of-violence-and-abuse/tech-abuse-2/</string> <!-- Refuge Tech Abuse page -->
+    <string name="resource2URL">https://www.womensaid.org.uk/information-support/</string> <!-- women's aid -->
+    <string name="resource3URL">https://safelives.org.uk/tech-vs-abuse</string> <!-- safe lives digital and online safety page -->
+
+    <!-- buttons -->
+    <string name="abusepopclose">CLOSE</string>
+    <string name="later"><u>SHOW ME LATER</u></string>
+    <string name="open">Browse Privately</string>
+
+
+    <!-- new device pop up -->
+    <string name="devicepopuptitle">New Device?</string>
+    <string name="add">Add New Person</string>
+    <string name="select">Who are you?</string>
+    <string name="addtitle">Someone Else?</string>
+
+    <!-- account settings -->
+    <string name="digwell">Digital Wellbeing</string>
+    <string name="appsettings">Home App Settings</string>
+    <string name="assistantsettings">Assistant Settings</string>
+    <string name="help">Help</string>
+    <string name="feedback">Feedback</string>
+
+    <!-- digital wellbeing -->
+    <string name="techabuse">Technology-Facilitated Domestic Abuse</string>
+    <string name="digwellbeingtitle">Find a balance with technology that feels right for you.</string>
+    <string name="digwellbeingtext">As technology becomes more and more integral to everything we do, it can sometimes distract us from the things that matter most to us. We believe technology should improve life, not distract from it. We’re committed to giving everyone the tools they need to develop their own sense of digital wellbeing. So that life, not the technology in it, stays front and center.</string>
+    <string name="digwellbeingbtn">Digital Wellbeing Tools</string>
+
+
+</resources>

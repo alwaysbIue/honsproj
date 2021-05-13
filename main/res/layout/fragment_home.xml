@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/background_light" >
+
+    <TextView
+        android:id="@+id/home_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/home_title"
+        android:layout_margin="30dp"
+        android:stretchColumns="*"
+        android:background="?android:attr/windowBackground" >
+
+        <TableRow
+            android:id="@+id/row_one"
+            android:layout_height="0dp"
+            android:paddingVertical="5dp"
+            android:weightSum="3">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                android:layout_weight="1"
+                 android:padding="5dp"
+                 android:drawableTop="@drawable/nest_large"
+                 android:text="@string/alicesnest"
+                 android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:drawableTop="@drawable/nest_large"
+                android:text="@string/paulsnest"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:drawableTop="@drawable/tv_large"
+                android:text="@string/maintv"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_two"
+            android:layout_height="0dp"
+            android:paddingVertical="5dp"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:drawableTop="@drawable/bulb_large"
+                android:text="@string/lrooml"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:drawableTop="@drawable/bulb_large"
+                android:text="@string/kitchenl"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:drawableTop="@drawable/hub_large"
+                android:text="@string/homehub"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_three"
+            android:layout_height="0dp"
+            android:paddingVertical="5dp"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:drawableTop="@drawable/tv_large"
+                android:text="@string/lroomtv"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:drawableTop="@drawable/nest_large"
+                android:text="@string/tvtv"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
